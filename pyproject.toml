@@ -2,7 +2,7 @@
 name = "comfyui_hallo"
 description = "Unofficial implementation of [a/hallo](https://github.com/fudan-generative-vision/hallo) for ComfyUI"
 version = "1.0.0"
-license = "LICENSE"
+license = { file = "LICENSE" }
 dependencies = ["diffusers", "omegaconf", "librosa", "audio-separator", "onnxruntime-gpu", "opencv-python", "onnx2torch", "onnx", "moviepy", "accelerate", "av", "bitsandbytes", "decord", "einops", "insightface", "mediapipe[vision]==0.10.14", "mlflow", "tqdm", "isort", "pylint", "pre-commit", "accelerate", "xformers", "torch", "numpy", "opencv-python"]
 
 [project.urls]
